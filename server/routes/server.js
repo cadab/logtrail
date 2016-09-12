@@ -60,7 +60,6 @@ module.exports = function (server) {
               query : {
                 query_string : {
                   analyze_wildcard: true,
-                  default_field : 'syslog_message',
                   query : searchText
                 }
               },

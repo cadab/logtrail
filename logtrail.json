@@ -9,8 +9,8 @@
   "max_buckets": 500,
   "fields" : [
     {
-      "type" : "syslog",
-      "fields": ["received_at","syslog_timestamp", "hostname", "program", "syslog_message"]
+      "type" : "log",
+      "fields": ["@timestamp", "Environment", "Level", "Message"]
     }
   ]
 }

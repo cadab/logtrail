@@ -10,7 +10,7 @@
   "fields" : [
     {
       "type" : "log",
-      "fields": ["@timestamp", "Environment", "Level", "Message"]
+      "fields": ["received_at", "Environment", "Level", "Message"]
     }
   ]
 }

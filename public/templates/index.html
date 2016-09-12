@@ -7,7 +7,7 @@
   <div class='no-event-message' ng-show='events != null && events.length == 0'>No events found</div>
   <ul class="events">
     <li id="{{ event.id }}" ng-repeat="event in events" on-last-repeat infinite-scroll>
-      <time>{{ event.timestamp }}</time>
+      <time>{{ event.received_at }}</time>
       <span class='host'><a href>{{ event.Environment }}</a></span>
       <span class='program'><a>{{ event.Level }}:</a></span>
       <span class="message">{{ event.Message }}</span>

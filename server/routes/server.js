@@ -30,10 +30,7 @@ function convertToClientFormat(config, esResponse) {
     event.host = source['syslog_hostname'];
     event.program = source['syslog_program'];*/
     
-    console.log(event);
-    
     clientResponse.push(event);
-    
   }
   return clientResponse;
 }
